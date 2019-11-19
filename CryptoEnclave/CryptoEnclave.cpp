@@ -42,3 +42,8 @@ void encryptMessage(char *decMessageIn, size_t len, char *encMessageOut, size_t 
 		(sgx_aes_gcm_128bit_tag_t *) (p_dst));	
 	memcpy(encMessageOut,p_dst,lenOut);
 }
+
+
+int add(int *a, int *b){
+	return *a+*b;
+}

@@ -25,6 +25,7 @@ enclave {
         *    the length of the encMessageOut.
         */
         public void encryptMessage([in,size=len] char *decMessageIn, size_t len, [out,size=lenOut] char *encMessageOut, size_t lenOut);
+        public int add([in]int *a,[in] int *b);
     };
 
     untrusted {
