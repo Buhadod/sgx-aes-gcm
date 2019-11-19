@@ -1,4 +1,4 @@
-# sgx-aes-gcm with add function XP
+# sgx-aes-gcm with add function :P
 
 ## How to Build/Execute the Application 
 1. Install Intel(R) SGX SDK for Linux* OS
